@@ -1,6 +1,6 @@
 .card {
   display: block;
-  width: 200px;
+  width: $width-of-card;
   height: 408px;
   border-radius: $main-border-radius;
   border: 1px solid $gray-elements;
@@ -30,17 +30,18 @@
     padding-top: $main-card-padding;
   }
 
-  &__main-title {
+  &__title {
     color: $main-text-color;
     font-weight: $main-weight;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0;
     margin: 40px 0 0;
+    transition: $main-timming;
   }
 
-  &:hover &__main-title {
-    color: #34568b;
+  &:hover &__title {
+    color: $title-hover-color;
   }
 
   &__second-title {
