@@ -6,7 +6,7 @@ main {
   display: grid;
   justify-content: center;
   box-sizing: border-box;
-  padding: $container-verrtical-padding $container-horizontal-padding;
+  padding: $container-vertical-padding $container-horizontal-padding;
   width: 100%;
   grid-template-columns: repeat(1, $width-of-card);
   grid-gap: 46px 48px;
